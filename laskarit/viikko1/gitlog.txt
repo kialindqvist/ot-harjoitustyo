@@ -1,0 +1,114 @@
+Kia-MacBook-Air:tiedostoja kialindqvist$ git log --stat | cat
+commit a7ca13329c05edc8497c509ca21858dcad95f8c7
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 18:45:11 2019 +0200
+
+    noh kolmosen muutosten peruminen ei ihan onnistunut
+
+ tiedostoja/file22 | 0
+ tiedostoja/file3  | 2 ++
+ 2 files changed, 2 insertions(+)
+
+commit 8dc253fa6170ae27ee20c5e5063542ca45eb6cf1
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 18:18:01 2019 +0200
+
+    muutoksia
+
+ eka.txt    | 7 ++++---
+ kolmas.txt | 3 ++-
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+
+commit 4e2a4b8c2f3abb4ca6caa9ecf1478babf4d35d20
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 18:14:34 2019 +0200
+
+    tiedoston poisto nimenvaihdon yhteydessä
+
+ tiedosto.txt | 16 ----------------
+ 1 file changed, 16 deletions(-)
+
+commit 75634e73d0b7e16dc1a4ce01a293cf323061c868
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 18:13:30 2019 +0200
+
+    nimen muutos
+
+ eka.txt | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit 70f41f24e780f2e76779552ce6cfe0a9b0eaa272
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 16:21:20 2019 +0200
+
+    poistettu toinen
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 8f10fdec1fb9f35ded7cff37d99381761af216bd
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 15:44:43 2019 +0200
+
+    poistettu ja lisätty
+
+ tiedosto.txt | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit 297b94b9d4ac4bf532dff3370045041f69eabeae
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 15:41:51 2019 +0200
+
+    tiedostoon tekstiä
+
+ tiedosto.txt | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit 25590e4024688f3091b8f4cf92446f67fd657f88
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 12:30:45 2019 +0200
+
+    lisätty stuff
+
+ stuff/jokintiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 32ddff1c2e8a9e20b61fc343aba461d2314e5be4
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 12:21:35 2019 +0200
+
+    muokattu toista ja kolmatta
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 788a31f1b6e3c1a8975261dff9d6b0e3b6938ba1
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 12:16:34 2019 +0200
+
+    lisätty kolmas
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 53e72ea78ba96f5e7a6ddbd28cbfbb6cc9c2963d
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 11:59:50 2019 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit c7813068145c4af40a6eacbf964125dc2c4332c1
+Author: Kia Lindqvist <kia.lindqvist@helsinki.fi>
+Date:   Tue Mar 12 11:53:42 2019 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+Kia-MacBook-Air:tiedostoja kialindqvist$ 
+
