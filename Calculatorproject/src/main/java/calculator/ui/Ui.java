@@ -31,20 +31,27 @@ public class Ui {
             System.out.println("[5] power");
             System.out.println("[6] square root");
             System.out.println("[7] nth root");
+            System.out.println("[8] factorial");
             System.out.println("[x] quit");
 
             System.out.print("> ");
             String answer = lukija.nextLine();
             
-            if(answer.equals("6")) {
+            if (answer.equals("6")) {
                 System.out.println("Give x which square root is going to be taken from");
                 System.out.println("x = ");
                 double x = Double.valueOf(lukija.nextLine());
                 System.out.println("sqrt(" + x + ") = " + this.calculator.squareroot(x));
+            }    
+            if (answer.equals("7")) {
+                System.out.println("Give x for the x!");
+                System.out.println("x= ");
+                double x = Double.valueOf(lukija.nextLine());
+                System.out.println(x+ "! = " + this.calculator.fact(x));
                 
+            }    
                 
-                
-            } if(answer.equals("x")) {
+            if (answer.equals("x")) {
                 break;
                 
             }else {

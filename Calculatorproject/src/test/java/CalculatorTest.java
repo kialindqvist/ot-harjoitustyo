@@ -16,6 +16,7 @@ public class CalculatorTest {
     
     @BeforeClass
     public static void setUpClass() {
+        
     }
     
     @AfterClass
@@ -44,5 +45,29 @@ public class CalculatorTest {
         
         assertEquals(7.0,calculator.add(x,y),0.001);
                
+    }
+    @Test
+    public void testMethodSub() {
+        Calculator calculator = new Calculator();
+        int x = 35;
+        int y = 43;
+        
+        assertEquals(-8.0,calculator.sub(x,y),0.001);
+               
+    }
+    @Test
+    public void testMethodMult() {
+        Calculator calculator = new Calculator();
+        int x = 4;
+        int y = 7;
+        
+        assertEquals(28.0,calculator.mult(x,y),0.001);
+    }
+    @Test
+    public void testMethodFact() {
+        Calculator calculator = new Calculator();
+        int x = 4;
+        
+        assertEquals(24.0,calculator.fact(x),0.001);
     }
 }
